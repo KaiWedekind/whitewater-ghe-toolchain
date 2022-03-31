@@ -23,7 +23,7 @@ the following text and an Authorize button:
 IBM users who have previously authorized in this region will see  
 a checkbox for "I understand",
 and because the repository reference doesn't exist, will see the following expected red error text:
-> Unable to read the repository on: https://github.ibm.com/otc-compliance/some-fake-non-existent-repo.git. User is not authorized, or repository does not exist
+> Unable to read the repository on: https://github.ibm.com/kai-wedekind/hello-ghe.git. User is not authorized, or repository does not exist
 
 Note, the above button is for us-south / Dallas.  
 If you wish to authorize for a different region, change the value in the Region dropdown and wait for the page to refresh.

@@ -2,8 +2,8 @@ version: '2'
 # messages:
   # $i18n: locales.yml
 template:
-  name: "Whitewater ref toolchain"
-  description: "Used to show the Whitewater GitHub oauth Authorize button. References the existent Whitewater server, but a non-existent repo on that server."
+  name: "Whitewater GHE toolchain"
+  description: "Used to show the Whitewater GitHub Oauth Authorize button. References the existent Whitewater server, but a non-existent repo on that server."
   # header: '![](toolchain.svg?localize)'
   # icon: icon.svg
   required:
@@ -23,8 +23,8 @@ services:
   sample-repo:
     service_id: github_integrated
     parameters:
-      repo_name: some-fake-non-existent-repo
-      repo_url: https://github.ibm.com/otc-compliance/some-fake-non-existent-repo.git
+      repo_name: hello-ghe
+      repo_url: https://github.ibm.com/kai-wedekind/hello-ghe.git
       type: link
       # has_issues: true
       # enable_traceability: true
