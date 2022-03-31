@@ -2,7 +2,7 @@ version: '2'
 # messages:
   # $i18n: locales.yml
 template:
-  name: "Whitewater GHE toolchain"
+  name: "Whitewater GHE OAuth toolchain"
   description: "Used to show the Whitewater GitHub Oauth Authorize button. References the existent Whitewater server, but a non-existent repo on that server."
   # header: '![](toolchain.svg?localize)'
   # icon: icon.svg
@@ -16,7 +16,7 @@ template:
           '[' + $env.branch + ']('+ $env.repository + '/tree/' + $env.branch + ')' :
           '[master]('+ $env.repository + '/tree/master)'
 toolchain:
-  name: 'whitewater-ref-toolchain-{{timestamp}}'
+  name: 'whitewater-ghe-oauth-toolchain'
   # template:
   #   getting_started: "**Your toolchain is ready!**\n**Quick start:** Commit a change to the Git repo to trigger a new build and deployment."
 services:
