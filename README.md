@@ -44,6 +44,6 @@ e.g. for me (mkehoe) it shows:
 **Git Servers**
 | Title                         | Type        | URL                    | Date Created  | Username | Status     |
 | ----------------------------- |-------------| -----------------------| --------------| ---------| -----------|
-| Whitewater GitHub Enterprise  | GitHub      | https://github.ibm.com | 28/10/2020    | MKEHOE   | Authorized |
+| Whitewater GitHub Enterprise  | GitHub      | https://github.ibm.com | 31/03/2022    | kai-wedekind   | Authorized |
 
 if the status for you is not "Authorized" then you may need to follow the above steps to see the Authorize button.
