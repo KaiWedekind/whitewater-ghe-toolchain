@@ -4,9 +4,13 @@ Used to show the Whitewater GitHub oauth Authorize button. References the existe
 The Whitewater internal IBM server is at [https://github.ibm.com](https://github.ibm.com)
 
 
-[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/KaiWedekind/whitewater-ghe-toolchain&env_id=ibm:yp:us-south) production us-south
+### Production - us-south
 
-[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://dev.console.test.cloud.ibm.com/devops/setup/deploy?repository=https://github.com/KaiWedekind/whitewater-ghe-toolchain&env_id=ibm:yp:us-south) dev
+[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/KaiWedekind/whitewater-ghe-toolchain&env_id=ibm:yp:us-south)
+
+### Development
+
+[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://dev.console.test.cloud.ibm.com/devops/setup/deploy?repository=https://github.com/KaiWedekind/whitewater-ghe-toolchain&env_id=ibm:yp:us-south)
 
 
 Note, the Whitewater tool integration is only available in accounts associated with IBM users.  
